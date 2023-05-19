@@ -54,7 +54,7 @@ const Options = () => {
   }, [currentSlide]);
 
   const goBack = () => {
-    history.goBack();
+    history.push('/');
   };
 
   return (
@@ -72,6 +72,7 @@ const Options = () => {
                 return (
                   <div className={styles.content} key={item.id}>
                     <div className={styles.top}>
+                        
                       <div className={styles.mbti__counter}>
                         <span className={styles.mbti__progress__color}>
                           {currentSlide}
