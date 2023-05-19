@@ -25,20 +25,18 @@ const Profile = ({ match }) => {
             <div className={styles.wrapper} key={nation.id}>
                 <div className={styles.container}>
                     <div className={styles.header}>
-                        <>
-                            <Link to="/">
-                                <FontAwesomeIcon
-                                    icon={faEarlybirds}
-                                    className={styles.birds}
-                                />
-                            </Link>
-                        </>
+                        <h5>앞으로 만나면 좋을 유형은</h5>
+                        <h3>유형 ABC</h3>
                     </div>
+                    
                     <img
                         src={nation.img}
                         alt="img"
                         className={styles.main__img}
                     />
+
+                    <h5>전애인의 MOOD</h5>
+
                     <div className={styles.result__type}>
                         <h1 className={styles.result__city}>
                             {nation.subject}
@@ -129,3 +127,4 @@ const Profile = ({ match }) => {
 };
 
 export default Profile;
+
