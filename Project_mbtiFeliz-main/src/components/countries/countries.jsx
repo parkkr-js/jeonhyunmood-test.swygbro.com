@@ -25,8 +25,7 @@ const Profile = ({ match }) => {
             <div className={styles.wrapper} key={nation.id}>
                 <div className={styles.container}>
                     <div className={styles.header}>
-                        <h5>앞으로 만나면 좋을 유형은</h5>
-                        <h3>유형 ABC</h3>
+                        <h5>앞으로 만나면 좋을 유형은</h5>   
                     </div>
                     
                     <img
@@ -34,7 +33,8 @@ const Profile = ({ match }) => {
                         alt="img"
                         className={styles.main__img}
                     />
-
+                    
+                    <h3>유형 ABC</h3>
                     <h5>전애인의 MOOD</h5>
 
                     <div className={styles.result__type}>
@@ -58,7 +58,7 @@ const Profile = ({ match }) => {
                             );
                         })}
                     </ul>
-                    <div className={styles.result__advice__box}>
+                    {/* <div className={styles.result__advice__box}>
                         <div className={styles.result__advice}>
                             <a href={`${/result/}${nation.duo[0].subhead}`}>
                                 <img
@@ -93,7 +93,7 @@ const Profile = ({ match }) => {
                                 <p>{nation.counter[0].des}</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className={styles.shareBox}>
                         <KakaoBtn />
                         <FacebookBtn />

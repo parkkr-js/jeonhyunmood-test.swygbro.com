@@ -8,7 +8,6 @@ strong {
     font-weight: bold;
 }
 .header h5{
-    position: absolute;
     width: 224px;
     height: 28px;
     left: calc(50% - 224px/2 + 1px);
@@ -18,11 +17,13 @@ strong {
     font-weight: 700;
     font-size: 20px;
     line-height: 140%;
+
+
     text-align: center;
+
     color: #000000;
 }
-.header h3{
-    position: absolute;
+.h3{
     width: 134px;
     height: 42px;
     left: calc(50% - 134px/2);
@@ -66,10 +67,11 @@ strong {
 
 .main__img {
     /* position: absolute; */
-    width: 308px;
-    height: 385px;
-    left: 566px;
-    top: 219px;
+    width: 305px;
+    height: 388px;
+    left: 567px;
+    top: 231px;
+
 }
 
 .result__city {
@@ -135,38 +137,85 @@ strong {
 }
 
 .button__box button {
-    margin: 0.4rem 0 0.4rem 0;
-    padding: 0.6rem;
-    background-color: #ed6174;
-    color: #e8e7e6;
-    border: none;
-    border-radius: 6px;
-    text-align: center;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	gap: 10px;
+	position: absolute;
+	width: 308px;
+	height: 30px;
+	left: calc(50% - 320px/2);
+	top: 1112px;
+	background: #8CC2E9;
+	border-radius: 30px;
+	font-family: 'NanumSquare Neo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
 }
 .button__box a {
-    margin: 0.3rem 0 0.3rem 0;
-    padding: 0.6rem;
-    background-color: #ed6174;
-    color: #e8e7e6;
-    border: none;
-    border-radius: 6px;
-    text-align: center;
-    font-weight: bold;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	gap: 10px;
+	position: absolute;
+	width: 308px;
+	height: 30px;
+	left: calc(50% - 320px/2);
+	top: 1000px;
+	background: #8CC2E9;
+	border-radius: 30px;
+	font-family: 'NanumSquare Neo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
 }
 
 .copy__button {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	gap: 10px;
+	position: absolute;
+	width: 308px;
+	height: 30px;
+	left: calc(50% - 320px/2);
+	top: 1000px;
+	background: #8CC2E9;
+	border-radius: 30px;
+	font-family: 'NanumSquare Neo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
 }
 
 .button:active {
     color: #fff;
-    background-color: #f54269;
-    transform: scale(0.95);
-    transition: 100ms;
-    border: none;
+	background: #429DDF;
+	transform: scale(0.95);
+	transition: 10ms;
+	border: none;
 }
 .icon {
     font-size: 1rem;
