@@ -1,8 +1,8 @@
-[
+ [
 	{
 		"id": 1,
 		"option": "EI",
-		"question": "내가 친구들을 만나러 같이 가자고 했을때 __이는?",
+		"question": "",
 		"answers": [
 			{
 				"type": "E",
@@ -17,7 +17,7 @@
 	{
 		"id": 2,
 		"option": "EI",
-		"question": "버스를 한 정거장 빨리 내린 당신. 나처럼 실수하고 같이 내린 또래의 이성",
+		"question": "",
 		"answers": [
 			{
 				"type": "E",
@@ -48,7 +48,7 @@
 	{
 		"id": 4,
 		"option": "SN",
-		"question": "영화를 보고 나왔을때 __이의 영화평은?",
+		"question": "",
 		"answers": [
 			{
 				"type": "S",
@@ -63,7 +63,7 @@
 	{
 		"id": 5,
 		"which": "SN",
-		"question": "__이가 선호했던 대화는?",
+		"question": "",
 		"answers": [
 			{
 				"type": "S",
@@ -78,7 +78,7 @@
 	{
 		"id": 6,
 		"which": "SN",
-		"question": "__이가 추천해주던 노래는﹖",
+		"question": "",
 		"answers": [
 			{
 				"type": "S",
@@ -93,7 +93,7 @@
 	{
 		"id": 7,
 		"option": "TF",
-		"question": "마음이 식었을때 그 __는?",
+		"question": "",
 		"answers": [
 			{
 				"type": "T",
@@ -108,7 +108,7 @@
 	{
 		"id": 8,
 		"option": "TF",
-		"question": "그 __랑 첫 눈을 봤을때 최악의 멘트는?",
+		"question": "",
 		"answers": [
 			{
 				"type": "T",
@@ -123,7 +123,7 @@
 	{
 		"id": 9,
 		"option": "TF",
-		"question": "우리가 싸울때 __는?",
+		"question": "",
 		"answers": [
 			{
 				"type": "T",
@@ -138,7 +138,7 @@
 	{
 		"id": 10,
 		"option": "JP",
-		"question": "__이와 한 최악의 여행은?",
+		"question": "",
 		"answers": [
 			{
 				"type": "J",
@@ -153,7 +153,7 @@
 	{
 		"id": 11,
 		"option": "JP",
-		"question": "__이가 준 최악의 생일 선물은?",
+		"question": "",
 		"answers": [
 			{
 				"type": "J",
@@ -168,7 +168,7 @@
 	{
 		"id": 12,
 		"option": "JP",
-		"question": "데이트 약속 시간에 __이는?",
+		"question": "",
 		"answers": [
 			{
 				"type": "J",

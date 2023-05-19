@@ -18,8 +18,8 @@ const KakaoShareButton = () => {
 				container: '#kakao-link-btn',
 				objectType: 'feed',
 				content: {
-					title: '여행MBIT',
-					description: '나에게 어울리는 여행지는?',
+					title: '전현무',
+					description: '',
 					imageUrl: 'https://felizmbti.netlify.app/img/FelizLogo.png',
 					link: {
 						mobileWebUrl: 'https://felizmbti.netlify.app/',
