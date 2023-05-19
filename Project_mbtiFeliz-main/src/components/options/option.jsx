@@ -51,9 +51,21 @@ const Options = () => {
         currentSlide > TOTAL_SLIDES && mbtiChecker();
     }, [currentSlide]);
 
+    const goBack = () => {
+        history.goBack();
+    };
+
     return (
-        <>
+        <div>
             <section className={styles.container}>
+                <button className={styles.goback_button} onClick={goBack}>
+                    <img
+                        className={styles.back_btn}
+                        src="img/back_icon.png"
+                    />
+                    &nbsp;&nbsp;전현무 TEST
+                </button>
+
                 {!loading && (
                     <>
                         <div className={styles.slider} ref={slideRef}>
@@ -90,6 +102,11 @@ const Options = () => {
                                                 {item.question}
                                             </h1>
                                         </div>
+                                        <img
+                                            className={styles.logo}
+                                            src="img/angel.png"
+                                            alt="전현무"
+                                        />
                                         <article
                                             className={styles.mbti__btn__box}
                                         >
@@ -123,7 +140,7 @@ const Options = () => {
                     </div>
                 )}
             </section>
-        </>
+        </div>
     );
 };
 

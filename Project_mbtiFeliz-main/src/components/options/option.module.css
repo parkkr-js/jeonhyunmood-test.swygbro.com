@@ -16,16 +16,35 @@ button {
     width: 100vw;
     float: left;
 }
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    width: 315px;
+    height: 261px;
+    margin-top: -100px;
+}
+
+.back_btn {
+    width: 30px;
+    height: 30px;
+}
 
 .top {
     height: 20vh;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .mbti__counter {
     font-size: 2rem;
     font-weight: bold;
-    height: 10vh;
+    margin-top: -100px;
 }
 
 .mbti__progress__color {
@@ -42,6 +61,7 @@ button {
     font-size: 1.4rem;
     font-weight: bolder;
     text-align: center;
+    margin-top: 30px;
 }
 
 .mbti__btn__box {
@@ -61,10 +81,19 @@ button {
     box-sizing: border-box;
     background-color: #fff;
     color: rgba(110, 110, 110, 1);
-    border: 1px solid gray;
-    border-radius: 6px;
-    border-color: #d0d0d0;
+    border: 2px solid #8cc2e9;
+     border-radius: 20px;
+    border-color: #8cc2e9;
     font-weight: 600;
+}
+.goback_button {
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #4e4e4e;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    text-align: center;
 }
 
 .mbti__button:active {
@@ -78,6 +107,7 @@ button {
 .loading__container {
     display: flex;
     width: 50%;
+    background-color: #ed6174;
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
@@ -108,13 +138,15 @@ button {
         transform: rotate(360deg);
     }
 }
-
 @media screen and (min-width: 768px) {
     html {
-        background-color: #fff;
+        background-color: white; /* 데스크탑 화면의 배경색을 지정하세요 */
+
+        /* background-size: cover; */ /* 데스크탑 화면에서 배경을 커버하도록 설정할 수도 있습니다 */
     }
+
     .top {
-        width: 768px;
+        width: 400px;
         margin: 0 auto;
     }
 
@@ -123,7 +155,7 @@ button {
     }
 
     .mbti__counter {
-        text-align: left;
+        text-align: center;
     }
 
     .mbti__button {
@@ -146,16 +178,5 @@ button {
 
     .ticket {
         width: 30rem;
-    }
-}
-
-/* //아이폰 SE 추가대응 */
-@media screen and (max-width: 320px) {
-    .mbti__button {
-        height: 100%;
-    }
-
-    .mbti__question {
-        font-size: 1.2rem;
     }
 }
