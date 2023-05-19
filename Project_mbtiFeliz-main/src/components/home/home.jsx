@@ -20,35 +20,18 @@ const Home = () => {
                     <div className={styles.top}>
                         <img
                             className={styles.logo}
-                            src="img/FelizLogo.png"
+                            src="img/mainLogo.png"
                             alt="로고"
                         />
                     </div>
                     <div className={styles.middle}>
-                        <h2 className={styles.header}>올해는 어디로 갈까?</h2>
-                        <p>총 16개의 유형의 MBTI성향을 기반으로</p>
-                        <p>가장 잘 어울리는 여행지를 추천해드려요.</p>
+                        <h2 className={styles.header}>전 애인 MOOD 테스트</h2>
+                        <p>전 애인의 무드를 통해 <br />현애인의 무드를 추천해드립니다.</p>
                     </div>
                     <div className={styles.bottom}>
                         <Link to="/tripMBTI" className={styles.start__button}>
-                            테스트 하기
-                            <FontAwesomeIcon
-                                icon={faArrowAltCircleRight}
-                                className={styles.icon}
-                            />
+                            테스트 시작하기
                         </Link>
-                        <CopyToClipboard text={url}>
-                            <button
-                                className={styles.start__button}
-                                onClick={copyAlert}
-                            >
-                                링크복사
-                                <FontAwesomeIcon
-                                    icon={faCopy}
-                                    className={styles.icon}
-                                />
-                            </button>
-                        </CopyToClipboard>
                     </div>
                 </div>
             </div>
