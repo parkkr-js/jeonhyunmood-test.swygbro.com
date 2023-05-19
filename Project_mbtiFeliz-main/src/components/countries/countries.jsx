@@ -24,76 +24,56 @@ const Profile = ({ match }) => {
         <>
             <div className={styles.wrapper} key={nation.id}>
                 <div className={styles.container}>
-                    <div className={styles.header}>
-                        <h5>앞으로 만나면 좋을 유형은</h5>   
+                    <div className={styles.h5}>
+                        <h5>앞으로 만나면 좋을 유형은</h5>
                     </div>
-                    
+                    <div className={styles.result__type}>
+                        {nation.nickname}
+                    </div>
+                    <br />
                     <img
                         src={nation.img}
                         alt="img"
                         className={styles.main__img}
                     />
-                    
-                    <h3>유형 ABC</h3>
-                    <h5>전애인의 MOOD</h5>
 
-                    <div className={styles.result__type}>
-                        <h1 className={styles.result__city}>
-                            {nation.subject}
-                        </h1>
-                        <br />
+                    <div className={styles.h4}>
+                        <h4>현애인의 MOOD</h4>
                     </div>
-                    <div className={styles.reust__title}>
-                        <h2>{nation.id}의 여행특징은?</h2>
-                    </div>
-                    <ul className={styles.result__style__wrapper}>
-                        {nation.description.map((item) => {
-                            return (
-                                <li
-                                    className={styles.result__style__detail}
-                                    key={item.des}
-                                >
-                                    {item.des}
-                                </li>
-                            );
-                        })}
-                    </ul>
-                    {/* <div className={styles.result__advice__box}>
-                        <div className={styles.result__advice}>
-                            <a href={`${/result/}${nation.duo[0].subhead}`}>
-                                <img
-                                    src={nation.duo[0].img}
-                                    alt="mbti캐릭터"
-                                    Link="/"
-                                />
-                            </a>
-                            <div>
-                                <h4>함께하면 좋아요!</h4>
-                                <p className={styles.advice__strong}>
-                                    찰떡궁합 그 자체 {nation.duo[0].subhead}
-                                </p>
-                                <p>{nation.duo[0].des}</p>
-                            </div>
-                        </div>
-                        <div className={styles.result__advice}>
-                            <Link
-                                to={`${/result/}${nation.counter[0].subhead}`}
-                            >
-                                <img
-                                    src={nation.counter[0].img}
-                                    alt="mbti캐릭터"
-                                />
-                            </Link>
 
-                            <div>
-                                <h4>가능하면 피하는게 좋겠어요!</h4>
-                                <p className={styles.advice__strong}>
-                                    도망가세요 {nation.counter[0].subhead}
-                                </p>
-                                <p>{nation.counter[0].des}</p>
-                            </div>
+                    <div className={styles.description_box}>
+                        <div className={styles.reust__title}>
+                            <h2>키워드</h2>
                         </div>
-                    </div> */}
+                        <ul className={`${styles.result__style__wrapper} ${styles.hashtag}`}>
+                            {nation.hashtag.map((item) => {
+                                return (
+                                    <li className={styles.result__style__detail} key={item.des}>
+                                        {item.des}
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                        <div className={styles.reust__title1}>
+                            <h2>상세설명</h2>
+                        </div>
+                        <div>
+                            <ul className={styles.result__style__wrapper}>
+                                {nation.description.map((item) => {
+                                    return (
+                                        <li
+                                            className={styles.result__style__detail}
+                                            key={item.des}
+                                        >
+                                            {item.des}
+                                        </li>
+                                    );
+                                })}
+                            </ul>
+                        </div>
+
+                    </div>
+
                     <div className={styles.shareBox}>
                         <KakaoBtn />
                         <FacebookBtn />
@@ -101,24 +81,20 @@ const Profile = ({ match }) => {
                     </div>
                     <div className={styles.button__box}>
                         <Link to="/" className={styles.button}>
-                            다시하기
+                            처음 화면으로 돌아가기
                             <FontAwesomeIcon
                                 icon={faSignOutAlt}
                                 className={styles.icon}
                             />
                         </Link>
-                        <CopyToClipboard text={url}>
-                            <button
-                                className={styles.copy__button}
-                                onClick={copyAlert}
-                            >
-                                링크복사
-                                <FontAwesomeIcon
-                                    icon={faCopy}
-                                    className={styles.icon}
-                                />
-                            </button>
-                        </CopyToClipboard>
+                        <div className={styles.copy__button}
+                            onClick={copyAlert}>
+                            링크복사
+                            <FontAwesomeIcon
+                                icon={faCopy}
+                                className={styles.icon}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

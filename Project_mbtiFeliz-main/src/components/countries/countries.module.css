@@ -7,20 +7,31 @@ a {
 strong {
     font-weight: bold;
 }
-.header h5{
-    width: 224px;
-    height: 28px;
-    left: calc(50% - 224px/2 + 1px);
-    top: 114px;
+.h5{
+    font-family: 'NanumSquare Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin : 10px; 
+    /* line-height: 140%; */
+
+/* 
+    text-align: center; */
+
+    color: #000000;
+}
+.h4{
+
     font-family: 'NanumSquare Neo';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 140%;
 
-
-    text-align: center;
-
+/* 
+    text-align: center; */
+    text-align: left;
+    margin: 15px;
     color: #000000;
 }
 .h3{
@@ -40,19 +51,21 @@ strong {
 
 .header {
     display: flex;
+    text-align: center;
+
 }
-.header a {
+/* .header a {
     margin: 0 auto;
     font-size: 3rem;
     align-items: center;
     color: #ed6174;
-}
+} */
 .wrapper {
     position: relative;
     width: 1440px;
     height: 1369px;
     background: #FFFFFF;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .container {
@@ -63,12 +76,14 @@ strong {
     left: 532px;
     top: 0px;
     background: #FFFFFF;
+    text-align: center;
+    margin-top : 30px;
 }
 
 .main__img {
     /* position: absolute; */
-    width: 305px;
-    height: 388px;
+    width: 360px;
+    height: 400px;
     left: 567px;
     top: 231px;
 
@@ -83,22 +98,57 @@ strong {
 }
 
 .result__type {
-    padding: 0.6rem;
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-family: 'NanumSquare Neo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
     text-align: center;
     color: #4e4e4e;
+    line-height: 140%;
+    white-space: pre-wrap;
 }
 .reust__title h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 1.2rem;
+    width: 46px;
+    height: 22px;
+    left: calc(50% - 46px/2 - 116px);
+    top: 712px;
+
+    /* ButtonText/BT1 - 16B */
+
+    font-family: 'NanumSquare Neo';
+    font-style: normal;
     font-weight: 700;
-    margin-bottom: 0.6rem;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    color: #000000;
+    margin: 10px 10px;
+}
+.reust__title1 h2 {
+    width: 61px;
+    height: 22px;
+    left: calc(50% - 61px/2 - 108.5px);
+    top: 788px;
+
+    /* ButtonText/BT1 - 16B */
+
+    font-family: 'NanumSquare Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+
+    color: #000000;
+    margin: 10px 10px;
 }
 .result__style__wrapper {
     list-style: disc;
     list-style-position: inside;
+    text-align: left;
+    line-height: 140%;
+
 }
 .result__style__detail {
     padding: 0.5rem;
@@ -146,8 +196,8 @@ strong {
 	position: absolute;
 	width: 308px;
 	height: 30px;
-	left: calc(50% - 320px/2);
-	top: 1112px;
+	
+	top: 1300px;
 	background: #8CC2E9;
 	border-radius: 30px;
 	font-family: 'NanumSquare Neo';
@@ -171,7 +221,7 @@ strong {
 	width: 308px;
 	height: 30px;
 	left: calc(50% - 320px/2);
-	top: 1000px;
+	top: 1200px;
 	background: #8CC2E9;
 	border-radius: 30px;
 	font-family: 'NanumSquare Neo';
@@ -196,7 +246,7 @@ strong {
 	width: 308px;
 	height: 30px;
 	left: calc(50% - 320px/2);
-	top: 1000px;
+	top: 1300px;
 	background: #8CC2E9;
 	border-radius: 30px;
 	font-family: 'NanumSquare Neo';
@@ -228,5 +278,31 @@ strong {
     justify-content: center;
 }
 
+.hashtag {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    color: #429DDF;
+    margin: 10px;
+  }
+  
+  /* .hashtag li {
+    flex: 1;
+  } */
+  .description_box{
+    box-sizing: border-box;
+    /* position: absolute; */
+    width: 355px;
+    height: 360px;
+    left: 570px;
+    top: 692px;
 
+    /* Primary/Blue */
+
+    border: 2px solid #8CC2E9;
+    border-radius: 10px;
+   
+
+  }
+  
 
