@@ -16,25 +16,29 @@ const Second = () => {
             <div className={styles.wrapper}>
                 <div className={styles.container}>
                     <div className={styles.top}>
-                    <div className={styles.header}>전 애인의 이름을 입력해주세요</div>
+                        <div className={styles.header}>
+                            전 애인의 이름을 입력해주세요
+                        </div>
                     </div>
                     <div className={styles.input_container}>
-                        <input type="text" name ="최애이름" placeholder="이름" /> 
-                        <input type="text" name ="최악이름" placeholder="이름" /> 
+                        <input type="text" name="최애이름" placeholder="이름" />
+                        <input type="text" name="최악이름" placeholder="이름" />
                     </div>
                     <div className={styles.best_worst_container}>
                         <div className={styles.best}>최애</div>
                         <div className={styles.worst}>최악</div>
                     </div>
                     <div className={styles.middle}>
-                        <div>* 입력조차 하기 싫으면.. 바로 시작!! *</div>
+                        <div>
+                            <p style={{ color: '#4e4e4e' }}>
+                                * 입력조차 하기 싫으면.. 바로 시작!! *
+                            </p>
+                        </div>
                     </div>
-                    <div className={styles.illust}>
-                        <img
-                            className={styles.logo}
-                            src="img/천사1.png"
-                        />
-                    </div>
+                   
+                        <img className={styles.angel} src="img/angel.png" />
+                        <img className={styles.angry} src="img/angry.png" />
+                   
                     <div className={styles.bottom}>
                         <Link to="/select" className={styles.start__button}>
                             바로 시작!

@@ -1,22 +1,31 @@
-.wrapper{
+.wrapper {
     position: relative;
     width: 1440px;
     height: 800px;
-    
-    background: #FFFFFF;
+
+    background: #ffffff;
 }
 .middle h2 {
-	padding: 1rem;
-	font-size: 1.5rem;
-	text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
 .middle p {
-	padding: 0.2rem;
-	font-size: 14px;
-	text-align: center;
+    padding: 0.2rem;
+    font-size: 14px;
+    text-align: center;
 }
-.logo {
-	width: 50vw;
+.angel {
+    margin-top: -110px;
+    margin-left: 50px;
+    width: 200px;
+    height: 165px;
+}
+.angry {
+    margin-top: -80px;
+    margin-left: 153px;
+    width: 190px;
+    height: 155px;
 }
 
 .container {
@@ -30,92 +39,85 @@
 
     /* BW/White */
 
-    background: #FFFFFF;
+    background: #ffffff;
 }
 .input_container {
     display: flex;
     justify-content: space-between; /* To increase the distance between input boxes */
 }
 
-.input_container input[type="text"] {
-    width: 150px;  /* Increase input box size */
-    border: 1px solid #429DDF; /* Make box border blue */
-    border-radius: 50px;  /* Round the corners of the box */
-    padding: 10px;  /* Add some padding inside the input box */
-    margin: 8px ;  /* Add some margin outside the input box */
+.input_container input[type='text'] {
+    width: 150px; /* Increase input box size */
+    border: 1px solid #429ddf; /* Make box border blue */
+    border-radius: 50px; /* Round the corners of the box */
+    padding: 10px; /* Add some padding inside the input box */
+    margin: 8px; /* Add some margin outside the input box */
     text-align: center;
     font-size: 16px;
 }
 
-.best_worst_container{
+.best_worst_container {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     width: 230px;
     margin-bottom: 30px;
     margin-left: 75px;
 }
-.best{
+.best {
     font-family: 'NanumSquare Neo';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 140%;
-    color: #429DDF;
+    color: #429ddf;
 }
-.worst{
+.worst {
     font-family: 'NanumSquare Neo';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 140%;
-    color: #ED6EB3;
+    color: #ed6eb3;
 }
 
-.illust{
-    background-color: gray;
-}
 .start__button {
     display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 10px;
-	gap: 10px;
-	position: absolute;
-	width: 308px;
-	height: 30px;
-	left: calc(50% - 320px/2);
-	top: 666px;
-	background: #8CC2E9;
-	border-radius: 30px;
-	font-family: 'NanumSquare Neo';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 22px;
-	color: #FFFFFF;
-	flex: none;
-	order: 0;
-	flex-grow: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 308px;
+    height: 30px;
+    background: #8cc2e9;
+    border-radius: 30px;
+    font-family: 'NanumSquare Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
-
 .start__button:active {
-	color: #fff;
-	background-color: #429DDF;
-	transform: scale(0.95);
-	transition: 10ms;
-	border: none;
-    
+    color: #fff;
+    background-color: #429ddf;
+    transform: scale(0.95);
+    transition: 10ms;
+    border: none;
 }
 
 .top {
     margin-top: 134px;
-    margin-bottom : 10px;
+    margin-bottom: 10px;
 }
 
 .middle {
-	height: 25vh;
+    height: 25vh;
     font-family: 'NanumSquare Neo';
     font-style: normal;
     font-weight: 400;
@@ -125,35 +127,33 @@
 }
 
 .icon {
-	margin-left: 6px;
+    margin-left: 6px;
 }
 
 .copy__button {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 
 .header {
-	position: absolute;
-width: 267px;
-height: 28px;
-left: calc(50% - 267px/2 + 0.5px);
-top: 100px;
+    position: absolute;
+    width: 267px;
+    height: 28px;
+    left: calc(50% - 267px / 2 + 0.5px);
+    top: 100px;
 
-/* Header/H5 - 20B */
+    /* Header/H5 - 20B */
 
-font-family: 'NanumSquare Neo';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 140%;
-/* identical to box height, or 28px */
+    font-family: 'NanumSquare Neo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
 
-text-align: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 }
-
-
