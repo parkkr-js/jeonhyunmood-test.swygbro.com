@@ -13,7 +13,7 @@ const App = () => {
                 <Route exact path="/">
                     <Home />
                 </Route>
-                <Route exact path="/tripMBTI">
+                <Route exact path="/select">
                     <Options />
                 </Route>
                 <Route exact path="/second">

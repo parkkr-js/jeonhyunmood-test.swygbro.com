@@ -36,7 +36,7 @@ const Second = () => {
                         />
                     </div>
                     <div className={styles.bottom}>
-                        <Link to="/tripMBTI" className={styles.start__button}>
+                        <Link to="/select" className={styles.start__button}>
                             바로 시작!
                             <FontAwesomeIcon
                                 icon={faArrowAltCircleRight}

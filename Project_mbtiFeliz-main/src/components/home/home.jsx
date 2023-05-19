@@ -29,6 +29,11 @@ const Home = () => {
                         <h2 className={styles.header}>전 애인 MOOD 테스트</h2>
                         <p>전 애인의 무드를 통해 <br />현애인의 무드를 추천해드립니다.</p>
                     </div>
+                    <img
+                            className={styles.img}
+                            src="img/다정 1.png"
+                            alt="다정1이미지"
+                        />
                     <div className={styles.bottom}>
                         <Link to="/second" className={styles.start__button}>
                             테스트 시작하기

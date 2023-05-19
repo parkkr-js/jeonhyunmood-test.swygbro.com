@@ -35,6 +35,12 @@ color: #000000;
 	Left: 645px;
 }
 
+.img {
+	margin-top: 100px;
+	width: 247px;
+	height: 301px;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
