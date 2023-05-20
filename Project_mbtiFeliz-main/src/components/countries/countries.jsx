@@ -79,6 +79,7 @@ const Profile = ({ match }) => {
                         <FacebookBtn />
                         <TwitterBtn />
                     </div>
+                    <div>
                     <div className={styles.button__box}>
                         <Link to="/" className={styles.button}>
                             처음 화면으로 돌아가기
@@ -95,6 +96,7 @@ const Profile = ({ match }) => {
                                 className={styles.icon}
                             />
                         </div>
+                        </div>   
                     </div>
                 </div>
             </div>

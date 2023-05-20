@@ -220,8 +220,8 @@ strong {
 	position: absolute;
 	width: 308px;
 	height: 30px;
-	left: calc(50% - 320px/2);
-	top: 1200px;
+	left: calc(50% - 345px/2);
+	top: 1100px;
 	background: #8CC2E9;
 	border-radius: 30px;
 	font-family: 'NanumSquare Neo';
@@ -245,8 +245,8 @@ strong {
 	position: absolute;
 	width: 308px;
 	height: 30px;
-	left: calc(50% - 320px/2);
-	top: 1300px;
+	left: calc(50% - 345px/2);
+	top: 1200px;
 	background: #8CC2E9;
 	border-radius: 30px;
 	font-family: 'NanumSquare Neo';
