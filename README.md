@@ -43,8 +43,7 @@
     
 ### 6. *사용한 툴 :*
 *Figma, React, Git, Github, Slack, Notion* <br><br>
-<img src="https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf" alt="Figma 로고" width="70"> <img src="https://github.com/J-shooni/ShortCutThon4/assets/93187535/8963a450-38e9-424b-a6b6-5e46b4ba0adb" alt="React 로고" width="100"> <img src="Short_JHM/readme/gitimg.png" width="100">
-
+<img src="https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf" alt="Figma 로고" width="70"> <img src="https://github.com/J-shooni/ShortCutThon4/assets/93187535/8963a450-38e9-424b-a6b6-5e46b4ba0adb" alt="React 로고" width="100"> <img src="S[hort_JHM/readme/gitimg.png](https://github.com/1st-PARD-WEB-PART/Short_JHM/assets/93187535/c5dc68f6-6856-4b81-9060-87694513e224)" width="100"> <img src="[Short_JHM/readme/gitimg.pn](https://github.com/1st-PARD-WEB-PART/Short_JHM/assets/93187535/8af68d64-9ef5-4cd5-bccf-220db795ad62)g" width="100"> <img src="[Short_JHM/readme/gitimg.png](https://github.com/1st-PARD-WEB-PART/Short_JHM/assets/93187535/66fe2499-a868-453a-b543-f3fff41159c4)" width="100"> <img src="[Short_JHM/readme/gitimg.png](https://github.com/1st-PARD-WEB-PART/Short_JHM/assets/93187535/3bb434ab-ce83-4b44-9a86-2559523ce74d)" width="100">
 
 
  1. *메인 기능*
