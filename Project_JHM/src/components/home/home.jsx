@@ -26,7 +26,8 @@ const Home = () => {
                         />
                     </div>
                     <div className={styles.middle}>
-                        <h2 className={styles.header}>전 애인 MOOD 테스트</h2>
+                        {/* <h2 className={styles.header}>전 애인 MOOD 테스트</h2> */}
+                        <h2 className={styles.header}>전애인의 유형을 파악해 현애인의 무드를 추천해주는 전현MOOD</h2>
                         <p style={{ color: '#4e4e4e' }}>
                             전 애인의 무드를 통해 <br />
                             현애인의 무드를 추천해드립니다.
