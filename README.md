@@ -42,9 +42,8 @@
     5. 확인한 결과를 공유하거나 처음으로 돌아가 다시 테스트를 진행하거나 페이지를 나갈 수 있다. 
     
 ### 6. *사용한 툴 :*
-<img src="https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf" alt="Figma 로고" width="100">
-<img src="https://github.com/J-shooni/ShortCutThon4/assets/93187535/8963a450-38e9-424b-a6b6-5e46b4ba0adb" alt="React 로고" width="100">
-
+*Figma, React, Git, Github, Slack, Notion* <br>
+<img src="https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf" alt="Figma 로고" width="70"> <img src="https://github.com/J-shooni/ShortCutThon4/assets/93187535/8963a450-38e9-424b-a6b6-5e46b4ba0adb" alt="React 로고" width="100"> <img src="Short_JHM/readme/gitimg.png" width="100">
 
 
 
