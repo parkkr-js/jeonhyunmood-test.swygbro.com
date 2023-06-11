@@ -1,19 +1,16 @@
 # readme파일
 
-생성 일시: 2023년 5월 20일 오전 6:17
-생성자: 학부생 신하진
-최종 편집 일시: 2023년 5월 20일 오전 9:08
-최종 편집자: 신지수
+생성 일시: 2023년 5월 20일 오전 6:17<br>
+생성자: 학부생 신하진<br>
+최종 편집 일시: 2023년 5월 20일 오전 9:08<br>
+최종 편집자: 신지수<br>
 
-README 파일
-
-# 프로젝트명 :전현MOOD
+# 프로젝트명 : 전현MOOD
 
 ### 1. *프로젝트 설명* :
     
-    <aside>
     💡 “전” 애인의 유형을 파악하여 "현”애인의 “무”드 파악 서비스
-    </aside>
+    
     
 ### 2. *제작동기:* 
     
@@ -36,6 +33,7 @@ README 파일
 
 5) 김지수 - 개발자
 
+
 ### 5. *실행순서 :*
     1. 웹 링크를 타고 서비스에 접속한다.
     2. 전 애인 중 제일 호감이 많이 남는 사람의 이름을 ‘최애’칸에 제일 호감이 남지 않는 사람의 이름을 ‘최악’칸에 적는다. 만약 사람의 이름을 작성하고 싶지 않다면 작성하지 않아도 된다.
@@ -45,9 +43,9 @@ README 파일
     
 ### 6. *사용한 툴 :*
 
-![1667px-Figma-logo svg](https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf)
-
-![Untitled](https://github.com/J-shooni/ShortCutThon4/assets/93187535/8963a450-38e9-424b-a6b6-5e46b4ba0adb)
+<!-- ![1667px-Figma-logo svg](https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf) -->
+![1667px-Figma-logo svg](https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf){: width="500" height="500"}
+![Untitled](https://github.com/J-shooni/ShortCutThon4/assets/93187535/8963a450-38e9-424b-a6b6-5e46b4ba0adb){: width="500" height="500"}
 
 
 
