@@ -45,6 +45,8 @@
 
 <!-- ![1667px-Figma-logo svg](https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf) -->
 ![500px-Figma-logo svg](https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf){: width="300"}
+<img src="https://github.com/J-shooni/ShortCutThon4/assets/93187535/436edff9-725c-4832-927f-0595de8c02cf" alt="Figma 로고" width="300">
+
 ![Untitled](https://github.com/J-shooni/ShortCutThon4/assets/93187535/8963a450-38e9-424b-a6b6-5e46b4ba0adb)
 
 
